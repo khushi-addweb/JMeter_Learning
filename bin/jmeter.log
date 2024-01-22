@@ -1,0 +1,192 @@
+2023-02-10 15:09:06,801 INFO o.a.j.u.JMeterUtils: Setting Locale to en_IN
+2023-02-10 15:09:06,840 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-02-10 15:09:06,841 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-02-10 15:09:06,852 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-02-10 15:09:06,852 INFO o.a.j.JMeter: Version 5.5
+2023-02-10 15:09:06,853 INFO o.a.j.JMeter: java.version=19.0.1
+2023-02-10 15:09:06,853 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2023-02-10 15:09:06,853 INFO o.a.j.JMeter: os.name=Mac OS X
+2023-02-10 15:09:06,853 INFO o.a.j.JMeter: os.arch=x86_64
+2023-02-10 15:09:06,853 INFO o.a.j.JMeter: os.version=10.15.7
+2023-02-10 15:09:06,853 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-02-10 15:09:06,854 INFO o.a.j.JMeter: java.awt.headless=null
+2023-02-10 15:09:06,854 INFO o.a.j.JMeter: Max memory     =2147483648
+2023-02-10 15:09:06,854 INFO o.a.j.JMeter: Available Processors =4
+2023-02-10 15:09:06,875 INFO o.a.j.JMeter: Default Locale=English (India)
+2023-02-10 15:09:06,875 INFO o.a.j.JMeter: JMeter  Locale=English (India)
+2023-02-10 15:09:06,875 INFO o.a.j.JMeter: JMeterHome=/Users/addweb/Downloads/apache-jmeter-5.5
+2023-02-10 15:09:06,876 INFO o.a.j.JMeter: user.dir  =/Users/addweb/Downloads/apache-jmeter-5.5/bin
+2023-02-10 15:09:06,876 INFO o.a.j.JMeter: PWD       =/Users/addweb/Downloads/apache-jmeter-5.5/bin
+2023-02-10 15:09:09,909 INFO o.a.j.JMeter: IP: 192.168.1.182 Name: addwebs-Mac-mini.local FullName: 192.168.1.182
+2023-02-10 15:09:09,922 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-02-10 15:09:10,499 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2023-02-10 15:09:20,712 INFO o.j.r.JARSourceHTTP: Found cached repo
+2023-02-10 15:09:20,980 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.8, jpgc-webdriver=4.7.2, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]
+2023-02-10 15:09:25,336 WARN o.j.r.h.StatsReporter: Failed to send repo stats
+org.apache.http.conn.ConnectTimeoutException: Connect to jmeter-plugins.org:443 timed out
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:545) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.jmeterplugins.repository.JARSourceHTTP.execute(JARSourceHTTP.java:499) ~[jmeter-plugins-manager-1.8.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.execute(JARSourceHTTP.java:494) ~[jmeter-plugins-manager-1.8.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.reportStats(JARSourceHTTP.java:451) ~[jmeter-plugins-manager-1.8.jar:?]
+	at org.jmeterplugins.repository.http.StatsReporter.run(StatsReporter.java:24) ~[jmeter-plugins-manager-1.8.jar:?]
+2023-02-10 15:10:12,613 INFO o.a.j.s.FileServer: Default base='/Users/addweb/Downloads/apache-jmeter-5.5/bin'
+2023-02-10 15:10:12,616 INFO o.a.j.g.a.Load: Loading file: /Users/addweb/Downloads/apache-jmeter-5.5/bin/Test Plan.jmx
+2023-02-10 15:10:12,617 INFO o.a.j.s.FileServer: Set new base='/Users/addweb/Downloads/apache-jmeter-5.5/bin'
+2023-02-10 15:10:12,993 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-02-10 15:10:13,009 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-02-10 15:10:13,012 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-02-10 15:10:13,015 INFO o.a.j.s.SaveService: Loading file: /Users/addweb/Downloads/apache-jmeter-5.5/bin/Test Plan.jmx
+2023-02-10 15:10:13,198 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-10 15:10:13,198 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-10 15:10:13,198 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-10 15:10:13,198 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-10 15:10:13,198 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-02-10 15:10:13,198 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-02-10 15:10:13,237 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-02-10 15:10:13,237 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-02-10 15:10:13,238 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-02-10 15:10:13,238 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-02-10 15:10:13,803 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-02-10 15:10:13,948 INFO o.a.j.s.FileServer: Set new base='/Users/addweb/Downloads/apache-jmeter-5.5/bin'
+2023-02-10 15:14:32,420 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-02-10 15:14:32,422 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-02-10 15:14:32,422 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-02-10 15:14:32,424 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-02-10 15:14:32,424 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-02-10 15:14:32,475 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-02-10 15:14:32,542 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-02-10 15:14:32,542 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-02-10 15:14:32,542 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-02-10 15:14:32,543 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-02-10 15:14:32,550 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-02-10 15:14:32,550 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-02-10 15:14:32,552 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-02-10 15:14:32,565 ERROR o.a.j.t.JMeterThread: Error calling threadStarted
+java.lang.IllegalStateException: The driver executable must exist: /Users/addweb/Downloads/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:345) ~[selenium-api-4.7.2.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:161) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.service.DriverService$Builder.usingDriverExecutable(DriverService.java:369) ~[selenium-remote-driver-4.7.2.jar:?]
+	at com.googlecode.jmeter.plugins.webdriver.config.ChromeDriverConfig.getThreadService(ChromeDriverConfig.java:46) ~[jmeter-plugins-webdriver-4.7.2.jar:?]
+	at com.googlecode.jmeter.plugins.webdriver.config.ChromeDriverConfig.createBrowser(ChromeDriverConfig.java:26) ~[jmeter-plugins-webdriver-4.7.2.jar:?]
+	at com.googlecode.jmeter.plugins.webdriver.config.ChromeDriverConfig.createBrowser(ChromeDriverConfig.java:14) ~[jmeter-plugins-webdriver-4.7.2.jar:?]
+	at com.googlecode.jmeter.plugins.webdriver.config.WebDriverConfig.getPreparedBrowser(WebDriverConfig.java:215) ~[jmeter-plugins-webdriver-4.7.2.jar:?]
+	at com.googlecode.jmeter.plugins.webdriver.config.WebDriverConfig.threadStarted(WebDriverConfig.java:146) ~[jmeter-plugins-webdriver-4.7.2.jar:?]
+	at org.apache.jmeter.threads.JMeterThread$ThreadListenerTraverser.addNode(JMeterThread.java:797) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:993) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverse(HashTree.java:976) ~[jorphan.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.threadStarted(JMeterThread.java:765) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.initRun(JMeterThread.java:753) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:264) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+2023-02-10 15:14:32,575 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = addwebs-Mac-mini.local
+2023-02-10 15:14:32,582 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-02-10 15:14:35,717 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-02-10 15:14:35,719 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-02-10 15:14:35,719 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-02-10 15:14:35,735 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-02-10 15:14:35,736 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-02-10 15:14:35,737 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-02-10 15:14:36,055 ERROR o.a.j.t.JMeterThread: Error while processing sampler: 'jp@gc - WebDriver Sampler'.
+java.lang.IllegalArgumentException: Browser has not been configured.  Please ensure at least 1 WebDriverConfig is created for a ThreadGroup.
+	at com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler.sample(WebDriverSampler.java:63) ~[jmeter-plugins-webdriver-4.7.2.jar:?]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+2023-02-10 15:14:36,056 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-02-10 15:14:36,056 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-02-10 15:14:36,064 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-02-10 15:14:36,065 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-02-10 15:24:37,690 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-02-10 15:24:37,691 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-02-10 15:24:37,693 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-02-10 15:24:37,760 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : JMeter_Selenium
+2023-02-10 15:24:37,760 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group JMeter_Selenium.
+2023-02-10 15:24:37,760 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-02-10 15:24:37,760 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=1 delayedStart=false
+2023-02-10 15:24:37,763 INFO o.a.j.t.JMeterThread: Thread started: JMeter_Selenium 1-1
+2023-02-10 15:24:37,782 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-02-10 15:24:37,782 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-02-10 15:24:37,963 INFO o.a.j.t.JMeterThread: Thread started: JMeter_Selenium 1-2
+2023-02-10 15:24:38,171 INFO o.a.j.t.JMeterThread: Thread started: JMeter_Selenium 1-3
+2023-02-10 15:24:38,367 INFO o.a.j.t.JMeterThread: Thread started: JMeter_Selenium 1-4
+2023-02-10 15:24:38,568 INFO o.a.j.t.JMeterThread: Thread started: JMeter_Selenium 1-5
+2023-02-10 15:24:49,816 ERROR c.g.j.p.w.s.WebDriverSampler: In file: inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' Encountered "WDS" at line 2, column 1.
+ in inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' at line number 2
+2023-02-10 15:24:49,818 INFO o.a.j.t.JMeterThread: Thread is done: JMeter_Selenium 1-1
+2023-02-10 15:24:49,818 INFO o.a.j.t.JMeterThread: Thread finished: JMeter_Selenium 1-1
+2023-02-10 15:24:50,610 ERROR c.g.j.p.w.s.WebDriverSampler: In file: inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' Encountered "WDS" at line 2, column 1.
+ in inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' at line number 2
+2023-02-10 15:24:50,610 INFO o.a.j.t.JMeterThread: Thread is done: JMeter_Selenium 1-5
+2023-02-10 15:24:50,611 INFO o.a.j.t.JMeterThread: Thread finished: JMeter_Selenium 1-5
+2023-02-10 15:24:50,649 ERROR c.g.j.p.w.s.WebDriverSampler: In file: inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' Encountered "WDS" at line 2, column 1.
+ in inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' at line number 2
+2023-02-10 15:24:50,650 INFO o.a.j.t.JMeterThread: Thread is done: JMeter_Selenium 1-3
+2023-02-10 15:24:50,650 INFO o.a.j.t.JMeterThread: Thread finished: JMeter_Selenium 1-3
+2023-02-10 15:24:50,702 ERROR c.g.j.p.w.s.WebDriverSampler: In file: inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' Encountered "WDS" at line 2, column 1.
+ in inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' at line number 2
+2023-02-10 15:24:50,703 INFO o.a.j.t.JMeterThread: Thread is done: JMeter_Selenium 1-2
+2023-02-10 15:24:50,703 INFO o.a.j.t.JMeterThread: Thread finished: JMeter_Selenium 1-2
+2023-02-10 15:24:50,703 ERROR c.g.j.p.w.s.WebDriverSampler: In file: inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' Encountered "WDS" at line 2, column 1.
+ in inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' at line number 2
+2023-02-10 15:24:50,704 INFO o.a.j.t.JMeterThread: Thread is done: JMeter_Selenium 1-4
+2023-02-10 15:24:50,705 INFO o.a.j.t.JMeterThread: Thread finished: JMeter_Selenium 1-4
+2023-02-10 15:24:51,045 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-02-10 15:24:51,045 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-02-10 15:25:03,069 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-02-10 15:25:03,070 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-02-10 15:25:03,072 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-02-10 15:25:03,170 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : JMeter_Selenium
+2023-02-10 15:25:03,171 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group JMeter_Selenium.
+2023-02-10 15:25:03,171 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-02-10 15:25:03,171 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-02-10 15:25:03,175 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-02-10 15:25:03,175 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-02-10 15:25:03,176 INFO o.a.j.t.JMeterThread: Thread started: JMeter_Selenium 1-1
+2023-02-10 15:25:05,690 ERROR c.g.j.p.w.s.WebDriverSampler: In file: inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' Encountered "WDS" at line 2, column 1.
+ in inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' at line number 2
+2023-02-10 15:25:05,691 INFO o.a.j.t.JMeterThread: Thread is done: JMeter_Selenium 1-1
+2023-02-10 15:25:05,691 INFO o.a.j.t.JMeterThread: Thread finished: JMeter_Selenium 1-1
+2023-02-10 15:25:05,881 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-02-10 15:25:05,882 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-02-10 15:56:54,381 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-02-10 15:56:54,383 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-02-10 15:56:54,385 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-02-10 15:56:54,513 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : JMeter_Selenium
+2023-02-10 15:56:54,514 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group JMeter_Selenium.
+2023-02-10 15:56:54,514 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-02-10 15:56:54,514 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-02-10 15:56:54,517 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-02-10 15:56:54,517 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-02-10 15:56:54,518 INFO o.a.j.t.JMeterThread: Thread started: JMeter_Selenium 1-1
+2023-02-10 15:57:00,638 ERROR c.g.j.p.w.s.WebDriverSampler: In file: inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' Encountered "WDS" at line 2, column 1.
+ in inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' at line number 2
+2023-02-10 15:57:00,639 INFO o.a.j.t.JMeterThread: Thread is done: JMeter_Selenium 1-1
+2023-02-10 15:57:00,639 INFO o.a.j.t.JMeterThread: Thread finished: JMeter_Selenium 1-1
+2023-02-10 15:57:00,773 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-02-10 15:57:00,773 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-02-10 15:57:57,421 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-02-10 15:57:57,422 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-02-10 15:57:57,424 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-02-10 15:57:57,505 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : JMeter_Selenium
+2023-02-10 15:57:57,505 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group JMeter_Selenium.
+2023-02-10 15:57:57,505 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-02-10 15:57:57,505 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-02-10 15:57:57,509 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-02-10 15:57:57,510 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-02-10 15:57:57,510 INFO o.a.j.t.JMeterThread: Thread started: JMeter_Selenium 1-1
+2023-02-10 16:00:29,784 ERROR c.g.j.p.w.s.WebDriverSampler: In file: inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' Encountered "WDS" at line 2, column 1.
+ in inline evaluation of: ``WDS.sampleResult.sampleStart() WDS.browser.get('https://ttstage.addwebprojects.c . . . '' at line number 2
+2023-02-10 16:00:29,786 INFO o.a.j.t.JMeterThread: Thread is done: JMeter_Selenium 1-1
+2023-02-10 16:00:29,786 INFO o.a.j.t.JMeterThread: Thread finished: JMeter_Selenium 1-1
+2023-02-10 16:00:29,998 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-02-10 16:00:29,999 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
